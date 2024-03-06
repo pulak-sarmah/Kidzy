@@ -5,10 +5,7 @@ import { Card } from "./src/components";
 function App() {
   return (
     <View style={style.root}>
-      <Text style={style.title}>Which is the "glass"?</Text>
-      <View style={style.optionsContainer}>
-        <Card />
-      </View>
+      <Card />
     </View>
   );
 }

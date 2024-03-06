@@ -15,5 +15,19 @@ export const style = StyleSheet.create({
     width: "100%",
     flex: 1,
   },
+  title: {
+    fontSize: 20,
+    alignSelf: "stretch",
+    fontWeight: "bold",
+  },
+  optionsContainer: {
+    flex: 1,
+    width: "100%",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    gap: 8,
+  },
+
   optionText: {},
 });
